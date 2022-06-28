@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title> Eval Test 6</title>
+    <link rel="stylesheet" href="../css/mp_style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/additional-methods.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+  </head>
+  <body>
+    <table id="mp_table">
+        <thead>
+        <th nowrap>Products</th>      
+        <th nowrap>Action</th>      
+        </thead>
+        <tbody id="tbody" >
+        <tr id="row">
+          <td id="rowcell1">
+          <select class="DROPDOWN" id="dropdwn" name="dropdown">
+            <option  value="">Select an option</option>
+            <option  value="Item-1">Item-1</option>
+            <option  value="Item-2">Item-2</option>
+            <option  value="Item-3">Item-3</option>
+            <option  value="Item-4">Item-4</option>
+            <option  value="Item-5">Item-5</option>
+            <option  value="Item-6">Item-6</option>
+            </select>
+          </td>
+          <td id="rowcell2"> 
+            <button type="button" id="remove" class="rem" name="rembtn" onClick='deleteRow(this)'>x</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- <button type="button" onclick="addrow()" id="addbutton"> + Add</button> -->
+    <button type="button" id="addbutton" onClick="addNewRow()"> + Add</button>
+    <script src="../jquery/mp_jquery.js"></script>
+  </body>
+</html>

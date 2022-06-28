@@ -1,0 +1,64 @@
+table{
+  border: 2px solid lightblue;
+  width: 50%;
+  border-collapse: collapse;
+  margin-left: 380px;
+  margin-top: 110px;
+}
+th{
+  border: 2px solid rgb(132, 179, 195);
+  width: 50%;
+  border-collapse: collapse;
+  align-content: center;
+  font-size: 25px;
+  
+}
+td{
+  border: 2px solid rgb(132, 179, 195);
+  width: 50%;
+  border-collapse: collapse;
+}
+tr{
+  margin-left: 200px;
+}
+
+.DROPDOWN{
+  margin-left: 70px;
+  width: 250px;
+  height: 40px;
+  box-sizing: border-box;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+#remove{
+  margin-left: 165px;
+}
+
+thead{
+  height: 58px;
+  background-color: rgb(144, 226, 226);
+}
+
+tbody>tr{ 
+  height: 70px;
+}
+
+.rem{
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+}
+
+#addbutton{
+  margin-left: 380px;
+  margin-top: 20px;
+  width: 200px;
+  height: 35px;
+  background-color: white;
+  border: 1px solid black; 
+  font-size: 20px;
+}
